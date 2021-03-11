@@ -1,8 +1,8 @@
 # Insight API
 
-A Powerblockcoin blockchain REST and web socket API service for [Powerblockcore Node](https://github.com/DeckerSU/powerblockcore-node).
+A Powerblockcoin blockchain REST and web socket API service for [Powerblockcore Node](https://github.com/pbcllc/powerblockcore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/DeckerSU/insight-powerblock-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/pbcllc/insight-powerblock-ui.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 ## Prerequisites
 
-- [Powerblockcore Node 3.x](https://github.com/DeckerSU/powerblockcore-node)
+- [Powerblockcore Node 3.x](https://github.com/pbcllc/powerblockcore-node)
 
 **Note:** You can use an existing Powerblockcoin data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcoin.conf`, as well as a few other additional fields.
 
@@ -123,7 +123,7 @@ To protect the server, insight-powerblock-api has a built it query rate limiter.
     }
   }
 ```
-With all the configuration options available: https://github.com/DeckerSU/insight-powerblock-api/blob/master/lib/ratelimiter.js#L10-17
+With all the configuration options available: https://github.com/pbcllc/insight-powerblock-api/blob/master/lib/ratelimiter.js#L10-17
 
 Or disabled entirely with:
 ``` json
