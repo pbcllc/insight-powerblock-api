@@ -2,7 +2,7 @@
   "name": "insight-powerblock-api",
   "description": "A Powerblockcoin blockchain REST and web socket API service for Powerblockcore Node.",
   "version": "0.4.4",
-  "repository": "git://github.com/DeckerSU/insight-powerblock-api.git",
+  "repository": "git://github.com/pbcllc/insight-powerblock-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/DeckerSU/insight-powerblock-api/issues"
+    "url": "https://github.com/pbcllc/insight-powerblock-api/issues"
   },
-  "homepage": "https://github.com/DeckerSU/insight-powerblock-api",
+  "homepage": "https://github.com/pbcllc/insight-powerblock-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "powerblockcore-lib": "git+https://git@github.com/DeckerSU/powerblockcore-lib",
-    "powerblockcore-message": "git+https://git@github.com/DeckerSU/powerblockcore-message",
+    "powerblockcore-lib": "git+https://git@github.com/pbcllc/powerblockcore-lib",
+    "powerblockcore-message": "git+https://git@github.com/pbcllc/powerblockcore-message",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
